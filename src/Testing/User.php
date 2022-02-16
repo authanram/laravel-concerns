@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Authanram\LaravelConcerns\Tests\TestFiles;
+namespace Authanram\LaravelConcerns\Testing;
 
-use FoobarTools\Console\Concerns\HasUuid;
+use Authanram\LaravelConcerns\HasUuid;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

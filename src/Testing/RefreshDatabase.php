@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Authanram\LaravelConcerns;
+namespace Authanram\LaravelConcerns\Testing;
 
 trait RefreshDatabase
 {
