@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Authanram\LaravelConcerns\Tests;
+namespace Authanram\LaravelConcerns\Tests\TestFiles;
 
 use FoobarTools\Console\Concerns\HasUuid;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
