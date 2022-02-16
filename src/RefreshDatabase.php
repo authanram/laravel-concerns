@@ -6,9 +6,12 @@ namespace Authanram\LaravelConcerns;
 
 trait RefreshDatabase
 {
-    use \Illuminate\Foundation\Testing\RefreshDatabase;
+    public function migrateFresh(): void
+    {
+        $this->artisan('migrate:fresh');
+    }
 
-    public function refreshAndSeedDatabase(): void
+    public function migrateFreshAndSeed(): void
     {
         $this->artisan('migrate:fresh', ['--seed' => true]);
     }
